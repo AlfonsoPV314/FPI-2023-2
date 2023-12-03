@@ -119,4 +119,7 @@ def operar_fracciones(nombre_archivo_entrada, nombre_archivo_salida):
       
     return True
     
-
+## Tiene un problema: calcula las fracciones simplificadas con valores aux
+## (valor_mayor y valor_menor), pero no actualiza los valores iniciales 
+## (num_final y den_final), aquellos que considera para hacer la fracción del resultado.
+## Por ende, retorna fracciones sin simplificar, aunque haga la simplificación.
